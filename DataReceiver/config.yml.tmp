@@ -1,0 +1,22 @@
+data_workspace: 
+  source_path: /source
+
+data_flow_logger:
+  receiver:
+    file_abspath: /log/receiver.log
+  process:
+    file_abspath: /log/process.log
+
+
+mysql:
+  host: 127.0.0.1
+  user: test
+  password: test
+  port: 3306
+  database: test
+  pool_size: 20
+  charset: UTF8
+
+log:
+  error:
+    path: /var/log/receiver.log
